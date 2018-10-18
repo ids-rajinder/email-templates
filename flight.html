@@ -7,6 +7,8 @@
 /* iOS BLUE LINKS */a[x-apple-data-detectors] {    color: inherit !important;    text-decoration: none !important;    font-size: inherit !important;    font-family: inherit !important;    font-weight: inherit !important;    line-height: inherit !important;}
 /* MEDIA QUERIES */@media screen and (max-width: 480px) {    .mobile-hide {        display: none !important;    }    .mobile-center {        text-align: center !important;    }}
 /* ANDROID CENTER FIX */div[style*="margin: 16px 0;"] { margin: 0 !important; }
+
+
 </style>
  &nbsp; 
 <!-- HIDDEN PREHEADER TEXT -->
@@ -36,7 +38,7 @@
 					<tbody>
 					<tr>
 						<td class="mobile-center" style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 36px; font-weight: 800; line-height: 48px;" align="left" valign="top">
-							<h1 style="font-size: 36px; font-weight: 800; margin: 0; color: #ffffff;">VisaBookings</h1>
+							<img style="display: block; border: 0px;" src="https://visabookings.com/wp-content/uploads/2018/10/email-logo.jpg" width="300" height="50"/>
 						</td>
 					</tr>
 					</tbody>
@@ -75,14 +77,45 @@
 				<tr>
 					<td style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; padding-top: 25px;" align="center">
 						<img style="display: block; border: 0px;" src="https://litmus-builder.s3.amazonaws.com/1536747428115" width="125" height="120"/>
-						<h2 style="font-size: 30px; font-weight: 800; line-height: 36px; color: #333333; margin: 0;">Dear user</h2>
 						<h2 style="font-size: 30px; font-weight: 800; line-height: 36px; color: #333333; margin: 0;">Thanks For Your Order!</h2>
+
 					</td>
 				</tr>
-				<tr>
-					<td style="padding-top: 20px;" align="left">
+
+
+				<td style="padding-top: 20px;" align="left">
 						<table border="0" width="100%" cellspacing="0" cellpadding="0">
 						<tbody>
+
+					<tr>
+						<td style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; padding: 10px; border-top: 3px solid #eeeeee; border-bottom: 3px solid #eeeeee;" align="left" width="100%">
+							Hi user,<br>
+								Thank you for your order enquiry with your Visa Bookings. We process your orders as soon as the  payment is received. We will deliver your itinerary to your inbox within the time you had requested or earlier. <br>
+							Feel free to reach us anytime on email, phone, WhatsApp or online chat if you have questions.<br>
+							Thanks!<br>
+							Visa BookingsTeam<br>
+							Phone: +1 111-111-1111<br>
+							www.visabookings.com
+						</td>
+						
+					</tr>
+						
+						</tbody>
+						</table>
+				</td>
+				<tr>
+					<td style="padding-top: 20px;" align="left">
+						<table border="1" width="100%" cellspacing="0" cellpadding="0">
+						<tbody>
+						<tr>
+							<td style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 800; line-height: 24px; padding: 10px;" color:#fff align="left" bgcolor="#1b9ba3" width="75%">
+								Order No.
+							</td>
+							<td style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 800; line-height: 24px; padding: 10px;" color:#fff align="left" bgcolor="#1b9ba3" width="25%">
+								{entry_id}
+							</td>
+						</tr>
+
 						<tr>
 							<td style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 800; line-height: 24px; padding: 10px;" align="left" bgcolor="#eeeeee" width="75%">
 								Tourists Details
@@ -1381,21 +1414,14 @@
 						[/gravityforms]
 
 				<tr>
-				<tr>
-							<td style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 800; line-height: 24px; padding: 10px; border-top: 3px solid #eeeeee; border-bottom: 3px solid #eeeeee;" align="left" width="70%">
+					<tr>
+						<td style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 800; line-height: 24px; padding: 10px; align="left" width="70%">
 								TOTAL
-							</td>
-							<td style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 800; line-height: 24px; padding: 10px; border-top: 3px solid #eeeeee; border-bottom: 3px solid #eeeeee; color:#069d26;" align="left" width="30%">
+						</td>
+						<td style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 800; line-height: 24px; padding: 10px; border-top: 3px solid #eeeeee; color:#069d26;" align="left" width="30%">
 								{Total:180}
-							</td>
-						</tr>
-					<td style="padding-top: 20px;" align="left">
-						<table border="0" width="100%" cellspacing="0" cellpadding="0">
-						<tbody>
-						
-						</tbody>
-						</table>
-					</td>
+						</td>
+					</tr>
 				</tr>
 
 						</tbody>
@@ -1453,21 +1479,51 @@
 			</td>
 		</tr>
 		<tr>
-			<td style="padding: 35px; background-color: #1b9ba3;" align="center" bgcolor="#1b9ba3">
+			<td style="padding: 15px; background-color: #1b9ba3;" align="center" bgcolor="#1b9ba3">
 				<!-- [if (gte mso 9)|(IE)]>
 <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+
+
+
+<tr>
+		<td align="center" valign="top" width="600">
+                <![endif]-->
+				<table style="max-width: 600px;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+				<tbody>
+				<tr>
+					<td style="padding: 4px 0 0px 0;" align="center">
+						<table border="0" cellspacing="0" cellpadding="0">
+						<tbody>
+						<tr>
+
+							<td class="mobile-center" style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 36px; font-weight: 800; line-height: 48px;" align="left" valign="top" width="50%">
+								<a href="#" style="float:left; padding-right: 6px;"><img style="display: block; border: 0px;" src="https://visabookings.com/wp-content/uploads/2018/10/f.png" width="30" height="30"/></a>
+
+								<a href="#"><img style="display: block; border: 0px;" src="https://visabookings.com/wp-content/uploads/2018/10/twitter.png" width="30" height="30"/></a>
+							</td>
+							
+						</tr>
+						</tbody>
+						</table>
+					</td>
+				</tr>
+				</tbody>
+				</table>
+				<!-- [if (gte mso 9)|(IE)]></td>
+</tr>
+
 <tr>
 <td align="center" valign="top" width="600">
                 <![endif]-->
 				<table style="max-width: 600px;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
 				<tbody>
 				<tr>
-					<td style="padding: 25px 0 15px 0;" align="center">
+					<td style="padding: 15px;" align="center">
 						<table border="0" cellspacing="0" cellpadding="0">
 						<tbody>
 						<tr>
 							<td style="border-radius: 5px;" align="center" bgcolor="#66b3b7">
-								<a style="font-size: 18px; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 5px; background-color: #66b3b7; padding: 15px 30px; border: 1px solid #66b3b7; display: block;" href="https://visabookings.com/contact/" target="_blank" rel="noopener">Contact Us</a>
+								<a style="font-size: 18px; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; padding: 15px 30px; border: 1px solid #fff;background-color: #1b9ba3; display: block;" href="https://visabookings.com/contact/" target="_blank" rel="noopener">Contact Us</a>
 							</td>
 						</tr>
 						</tbody>
@@ -1478,30 +1534,29 @@
 				</table>
 				<!-- [if (gte mso 9)|(IE)]></td>
 </tr>
-</table>
-<![endif]-->
-			</td>
-		</tr>
-		<tr>
-			<td style="padding: 35px; background-color: #ffffff;" align="center" bgcolor="#ffffff">
-				<!-- [if (gte mso 9)|(IE)]>
-<table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+
+
 <tr>
-<td align="center" valign="top" width="600">
+	<td valign="top" width="600" border-top:1px solid #ccc;>
                 <![endif]-->
 				<table style="max-width: 600px;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
 				<tbody>
 				<tr>
-					<td align="center">
-						<img style="display: block; border: 0px;" src="https://visabookings.com/wp-content/uploads/2018/05/Untitled-1.png" width="200" height="35"/>
-					</td>
-				</tr>
-				<tr>
-					<td style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 24px; padding: 5px 0 10px 0;" align="center">
-						<p style="font-size: 14px; font-weight: 800; line-height: 18px; color: #333333;">
-							www.visabookings.com
-						</p>
-					</td>
+					<td style="padding:0;" align="center"  border-top:1px solid #ccc;>
+						<table border="0" cellspacing="0" cellpadding="0" width: 100%;>
+						<tbody>
+						<tr>
+							<td style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 400; line-height: 24px; padding:0px; color: #fff; text-align: center;"  align="left" width="100%" align="center">
+								<a href="#" style="color:#fff;padding-right: 6px;">Privacy policy</a><a href="#" style="color:#fff">Terms and conditions</a>
+							</td>
+						</tr>
+
+						
+							
+						
+						</tbody>
+						</table>
+	</td>
 				</tr>
 				</tbody>
 				</table>
@@ -1509,6 +1564,34 @@
 </tr>
 </table>
 <![endif]-->
+			</td>
+		</tr>
+		<tr>
+			
+		</tr>
+
+		<tr>
+			<td style="padding:0px;padding-bottom:0px;background-color:#1b9ba3e3" align="center" bgcolor="#696f6f75">
+				
+				
+				<table style="max-width:600px" border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+				<tbody>
+				<tr>
+					<td style="padding:8px 0 0px 0" align="center">
+						<table border="0" cellspacing="0" cellpadding="0">
+						<tbody>
+						<tr>
+							<td style="font-family:Open Sans,Helvetica,Arial,sans-serif;font-size:13px;font-weight:400;line-height:24px;padding:10px;color:#fff;text-align:center" align="left" width="100%">
+								Copyright © 2018 Visa Bookings
+							</td>
+						</tr>
+						</tbody>
+						</table>
+					</td>
+				</tr>
+				</tbody>
+				</table>
+				
 			</td>
 		</tr>
 		</tbody>
